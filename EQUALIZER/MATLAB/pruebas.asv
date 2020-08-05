@@ -1,0 +1,59 @@
+% function pruebas
+
+try %#ok<TRYNC>
+    stop( player );
+    delete(player)
+end
+
+clc;clear all;
+Fs = 48000;
+FsN = Fs/2;
+Wp = 100/FsN;
+Ws = 700/FsN;
+[n, Wn] = buttord( Wp, Ws, 3, 60 );
+
+
+
+[b,a] = butter( n, Wn );
+clc;
+fprintf('\nconst int n = %i;\nconst double b[%i] = { ',...
+                    max([length(b), length(a)]), length(b) );
+for id = 1:length(b)
+    if id==length(b)
+        fprintf('%5.16f};', (10^9)*b(id) );
+    else
+        fprintf('%5.16f, ', (10^9)*b(id) );
+    end
+end
+fprintf('\nconst double a[%i] = { ', length(a));
+for id = 1:length(a)
+    if id==length(a)
+        fprintf('%5.16f};\n\n\n', a(id) );
+    else
+        fprintf('%5.16f, ', a(id) );
+    end
+end
+
+
+freqz( b, a, 512, 1000 ); 
+title('n=5 Butterworth Lowpass Filter')
+
+
+[y Fs] = wavread( 'X:\SegAll\CONOCIMIENTO\UNIVERSIDAD\TRATAMIENTO\PROYECTO\Abrete.wav' );
+y = y( 1:length(y)/1);
+Ts = 1/Fs;% wavplay( y, Fs );
+Gz = tf( b, a, Ts, 'z' );
+t = Ts * (0:(length( y )-1));
+drawnow
+tic;
+y1 = filtfilt( b, a, y );
+y1 = y1/max( abs(y1) );
+% disp( 'Tiempo, ' )
+% disp( toc )
+
+
+% 
+% %%AO
+% player = audioplayer(y1, Fs);
+% play(player);
+

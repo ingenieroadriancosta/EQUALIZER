@@ -1,0 +1,75 @@
+#include <windows.h>
+#include <winuser.h>
+
+
+//0 24 "HE STILL LOVES ME.wav"
+/*
+IPLAY  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\Play.ico"
+ISTOP  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\Stop.ico"
+IPAUSE ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\Pause.ico"
+IEXIT  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\EXIT.ico"
+//BitmapPlay BITMAP "PLAY - copia.bmp"
+//*/
+aceleradores ACCELERATORS
+BEGIN
+/*
+
+    "^D"     , ID_DEVICE_MANAGER
+    "^R"     , ID_BITS_16_8
+    "^E"     , ID_ERASE_RAM, ALT
+    "^I"     , ID_INFO_WINDOW
+
+    "^S"     , ID_SCALE_PIC
+
+    VK_UP    , ID_PLUS_IMAGE_POS
+
+
+
+    "^P"     , ID_PRUEBAS
+//*/
+
+    "^A", 99
+    "^S", 98
+
+    "P", 100
+    "p", 100
+
+    " ", 100
+
+    "S", 101
+    "s", 101
+
+    "L", 102
+    "l", 102
+
+    "H", 103
+    "h", 103
+
+    "N", 255
+    "n", 255
+
+    "^R", 1024
+    "^r", 1024
+
+
+    "^C", 1025
+    "^c", 1025
+    "^X", 1026
+    "^x", 1026
+
+    "^D", 518
+    "^d", 518
+
+
+    "X" , 1, ALT
+    "x" , 1, ALT
+
+
+
+
+    0xB3 , 100
+    // VK_MEDIA_PLAY_PAUSE
+
+
+
+END

@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1419136099 source:x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\main.cpp
+	<DEF.h>
+	<DEF_FUNC.h>
+	"LILI.h"
+	"mpg123.cpp"
+	"GVARS.cpp"
+	"OurCrashHandler.cpp"
+	"OPEN_AND_SAVE_EQUALIZER.cpp"
+	"SCROLLBAR.cpp"
+	"SONG.cpp"
+	"MAKEREVERV.cpp"
+	"MAKELOWPASS.cpp"
+	"MAKEHIPASS.cpp"
+	"DOPPLER.cpp"
+	"MUTE_R_L_ALL.cpp"
+	"SaveWAV.cpp"
+	"SaveList.cpp"
+	"LISTMNG.cpp"
+	"Copy2Folder.cpp"
+	"MAINWINDOW.cpp"
+
+1369467286 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\lili.h
+	<windows.h>
+	<olectl.h>
+
+1328741632 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mpg123.cpp
+
+1418102388 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\gvars.cpp
+
+1418106219 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\open_and_save_equalizer.cpp
+
+1411283920 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\scrollbar.cpp
+
+1418112176 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\song.cpp
+
+1328983720 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makereverv.cpp
+
+1386993116 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makelowpass.cpp
+
+1328664271 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makehipass.cpp
+
+1328726439 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\doppler.cpp
+
+1418106573 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mainwindow.cpp
+
+1418106236 source:x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\equalizer_private.rc
+	"EQUALIZER.rc"
+
+1418114575 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\equalizer.rc
+	<windows.h>
+	<winuser.h>
+
+1391755149 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\ourcrashhandler.cpp
+
+1408676072 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\savewav.cpp
+
+1408676041 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\savelist.cpp
+
+1408673685 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mute_r_l_all.cpp
+
+1408599631 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mixer.cpp
+
+1418103748 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\listmng.cpp
+
+1417843459 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\cplot.h
+	"CPLOT.cpp"
+	"FillGrid.cpp"
+	"plot.cpp"
+	"plots.cpp"
+	"RegClass.cpp"
+
+1418098103 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\cplot.cpp
+
+1417842819 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\fillgrid.cpp
+
+1417845762 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\plot.cpp
+
+1417523703 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\plots.cpp
+	"UCplot.cpp"
+
+1418098157 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\ucplot.cpp
+
+1417844810 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\cplotchild\regclass.cpp
+
+1418102796 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\plot_m.cpp
+
+1418132323 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\copy2folder.cpp
+
+1418106236 source:e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\equalizer_private.rc
+	"EQUALIZER.rc"
+
+1418114575 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\equalizer.rc
+	<windows.h>
+	<winuser.h>
+
+1497500332 source:e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\main.cpp
+	<DEF.h>
+	<DEF_FUNC.h>
+	"LILI.h"
+	"mpg123.cpp"
+	"GVARS.cpp"
+	"OurCrashHandler.cpp"
+	"OPEN_AND_SAVE_EQUALIZER.cpp"
+	"SCROLLBAR.cpp"
+	"SONG.cpp"
+	"MAKEREVERV.cpp"
+	"MAKENORMALIZE.cpp"
+	"MAKELOWPASS.cpp"
+	"MAKEHIPASS.cpp"
+	"DOPPLER.cpp"
+	"MUTE_R_L_ALL.cpp"
+	"SaveWAV.cpp"
+	"SaveList.cpp"
+	"LISTMNG.cpp"
+	"Copy2Folder.cpp"
+	"MAINWINDOW.cpp"
+
+1369467286 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\lili.h
+	<windows.h>
+	<olectl.h>
+
+1328741632 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mpg123.cpp
+
+1497498532 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\gvars.cpp
+
+1391755149 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\ourcrashhandler.cpp
+
+1421392706 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\open_and_save_equalizer.cpp
+
+1411283920 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\scrollbar.cpp
+
+1497500409 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\song.cpp
+
+1497498757 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makereverv.cpp
+
+1386993116 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makelowpass.cpp
+
+1328664271 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makehipass.cpp
+
+1328726439 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\doppler.cpp
+
+1408673685 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mute_r_l_all.cpp
+
+1434783457 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\savewav.cpp
+
+1408676041 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\savelist.cpp
+
+1418103748 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\listmng.cpp
+
+1447473171 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\copy2folder.cpp
+
+1497499680 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mainwindow.cpp
+
+1497499529 e:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makenormalize.cpp
+
+1418106236 source:f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\equalizer_private.rc
+	"EQUALIZER.rc"
+
+1418114575 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\equalizer.rc
+	<windows.h>
+	<winuser.h>
+
+1500697757 source:f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\main.cpp
+	<DEF.h>
+	<DEF_FUNC.h>
+	"LILI.h"
+	"mpg123.cpp"
+	"GVARS.cpp"
+	"OurCrashHandler.cpp"
+	"OPEN_AND_SAVE_EQUALIZER.cpp"
+	"SCROLLBAR.cpp"
+	"SONG.cpp"
+	"MAKEREVERV.cpp"
+	"MAKENORMALIZE.cpp"
+	"MAKELOWPASS.cpp"
+	"MAKEHIPASS.cpp"
+	"DOPPLER.cpp"
+	"MUTE_R_L_ALL.cpp"
+	"SaveWAV.cpp"
+	"SaveList.cpp"
+	"LISTMNG.cpp"
+	"Copy2Folder.cpp"
+	"MAINWINDOW.cpp"
+
+1369467286 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\lili.h
+	<windows.h>
+	<olectl.h>
+
+1328741632 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mpg123.cpp
+
+1497498532 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\gvars.cpp
+
+1391755149 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\ourcrashhandler.cpp
+
+1421392706 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\open_and_save_equalizer.cpp
+
+1411283920 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\scrollbar.cpp
+
+1500697908 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\song.cpp
+
+1497498757 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makereverv.cpp
+
+1500697870 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makenormalize.cpp
+
+1386993116 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makelowpass.cpp
+
+1328664271 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\makehipass.cpp
+
+1328726439 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\doppler.cpp
+
+1408673685 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mute_r_l_all.cpp
+
+1434783457 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\savewav.cpp
+
+1408676041 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\savelist.cpp
+
+1418103748 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\listmng.cpp
+
+1447473171 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\copy2folder.cpp
+
+1497499680 f:\aiif\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\mainwindow.cpp
+

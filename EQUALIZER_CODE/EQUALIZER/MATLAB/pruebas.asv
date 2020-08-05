@@ -1,0 +1,23 @@
+% function pruebas
+clc;clear all;
+
+[ y Fs ] = wavread( 'Lanona.wav' );
+yNT = y;
+yN = y;%y(:,1) - y(:,2);
+
+% yN = [ yN yN ];
+ylow= lowpass( yNT, Fs, 200, 60 );
+% yN = ( 0.9*ylow + 0.4*yN );
+yN = ylow;
+
+% yN = yN(1:10*Fs);
+yN(:,1) = yN(:,1)/max( abs(yN(:,1)) );
+yN(:,2) = yN(:,2)/max( abs(yN(:,2)) );
+
+yn2 = yN;%(Ly-3*Fs:Ly+2*Fs, :);
+
+
+drawnow
+
+wavplay( yn2(25*Fs:40*Fs,:), Fs );
+

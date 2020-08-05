@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1371245189 source:x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\equalizer_private.rc
+	"EQUALIZER.rc"
+
+1371244865 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\equalizer.rc
+	<windows.h>
+	<winuser.h>
+
+1371258021 source:x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\main.cpp
+	<DEF.h>
+	<DEF_FUNC.h>
+	"WAV_CLASS.cpp"
+	"IDS.h"
+	"GVARS.cpp"
+	"OurCrashHandler.cpp"
+	"PRUEBAS.cpp"
+	"CREATE.cpp"
+	"MAINWINDOW.cpp"
+	"WPROC.cpp"
+	"CMD_THR.cpp"
+
+1371254521 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\ids.h
+
+1371290292 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\gvars.cpp
+
+1371291860 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\pruebas.cpp
+
+1371283289 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\create.cpp
+
+1371283554 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\mainwindow.cpp
+
+1371258082 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\wproc.cpp
+
+1371254643 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\cmd_thr.cpp
+
+1371291839 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\wav_class.cpp
+	"mpg123.cpp"
+
+1328741632 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\mpg123.cpp
+
+1371290491 x:\segall\enterprise\c++\ejercicios\equalizer\equalizer\ourcrashhandler.cpp
+

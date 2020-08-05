@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1408598943 source:x:\segall\enterprise\c++\ejercicios\equalizer\equalizer_code\equalizer\_tryexam\try\main.cpp
+	<windows.h>
+	<stdio.h>
+	<conio.h>
+	<mmsystem.h>
+

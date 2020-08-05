@@ -1,0 +1,210 @@
+#include <windows.h>
+#include <winuser.h>
+
+
+//0 24 "HE STILL LOVES ME.wav"
+
+IPLAY  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\Play.ico"
+ISTOP  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\Stop.ico"
+IPAUSE ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\Pause.ico"
+
+IFW    ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\FW.ico"
+IRW    ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\RW.ico"
+
+IEXIT  ICON MOVEABLE PURE LOADONCALL DISCARDABLE "ICONOS\\EXIT.ico"
+//BitmapPlay BITMAP "PLAY - copia.bmp"
+
+
+
+
+Menu MENUEX
+BEGIN
+POPUP "&Opciones"
+    BEGIN
+        //MENUITEM "&Abrir\a Ctrl + A", ID_PRUEBAS
+        //MENUITEM SEPARATOR
+
+        MENUITEM "&Play", 100
+        MENUITEM "&Forward", 1025
+        MENUITEM "&Reward", 1026
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+
+
+        MENUITEM "&Mute R", 71
+        MENUITEM "&Mute L", 70
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+
+
+
+        MENUITEM "&Lista", 69
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "&Abrir lista", 89
+        MENUITEM "&Guardar lista", 90
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "&Borrar lista", 88
+
+
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "&Abrir archivo", 99
+        MENUITEM "&Guardar archivo", 98
+
+
+
+
+
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir", 1
+    END
+END
+
+aceleradores ACCELERATORS
+BEGIN
+/*
+
+    "^D"     , ID_DEVICE_MANAGER
+    "^R"     , ID_BITS_16_8
+    "^E"     , ID_ERASE_RAM, ALT
+    "^I"     , ID_INFO_WINDOW
+
+    "^S"     , ID_SCALE_PIC
+
+    VK_UP    , ID_PLUS_IMAGE_POS
+
+
+
+    "^P"     , ID_PRUEBAS
+//*/
+
+    "^W", 50
+
+    "^K", 68
+    "^L", 70
+    "^R", 71
+
+    "^C", 88, ALT
+    "^O", 89
+    "^G", 90
+    "^A", 99
+    "^S", 98
+
+    "P", 100
+    "p", 100
+
+    " ", 100
+
+    "S", 101
+    "s", 101
+
+    "L", 102
+    "l", 102
+
+    "H", 103
+    "h", 103
+
+    "N", 255
+    "n", 255
+
+    "^R", 1024
+    "^r", 1024
+
+
+    "^C", 1025
+    "^c", 1025
+    "^X", 1026
+    "^x", 1026
+
+
+    "^i", 1031
+
+
+
+
+    "^D", 518
+    "^d", 518
+
+
+    "X" , 1, ALT
+    "x" , 1, ALT
+
+
+
+
+
+
+    0xB3 , 100
+    // VK_MEDIA_PLAY_PAUSE
+
+
+
+END
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+LISTMNG DIALOGEX 100, 100, 300, 200
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_TOPMOST
+STYLE 0xC80000
+CAPTION " Lista "
+FONT 8, "Helv"
+BEGIN
+ CONTROL "BORRAR", 100, "BUTTON",
+    WS_CHILD | WS_VISIBLE,
+    1, 1, 50, 20
+
+ CONTROL "CAMBIAR", 101, "BUTTON",
+    WS_CHILD | WS_VISIBLE,
+    60, 1, 50, 20
+
+
+ CONTROL "Siempre Visible", 102, "BUTTON",
+    WS_CHILD | WS_VISIBLE,
+    120, 1, 54, 20
+
+
+
+ CONTROL "CERRAR", IDCANCEL, "BUTTON",
+    WS_CHILD | WS_VISIBLE,
+    240, 1, 50, 20
+
+
+
+ CONTROL 0, 256, "COMBOBOX",
+    WS_BORDER | WS_TABSTOP | WS_HSCROLL | WS_VSCROLL | CBS_AUTOHSCROLL,
+    1, 22, 290, 250
+/*
+ CONTROL "", 101, "EDIT",
+    ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP |
+    ES_UPPERCASE | ES_PASSWORD,
+    42, 1, 106, 12
+
+ CONTROL "Aceptar", IDOK, "BUTTON",
+    BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+    10, 140, 50, 20
+ CONTROL "Cancelar", IDCANCEL, "BUTTON",
+    BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+    90, 140, 50, 20
+    //*/
+END
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
